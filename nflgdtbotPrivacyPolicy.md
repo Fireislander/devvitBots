@@ -50,7 +50,7 @@ All subreddit settings and active game-tracking metadata are stored natively wit
 Because the Bot is hosted on Reddit and interacts with external APIs, the following third-party privacy policies also apply:
 *   **Reddit:** Subject to the [Reddit Privacy Policy](https://www.reddit.com/policies/privacy-policy).
 *   **ESPN:** Scoreboard stats are retrieved from public endpoints. Subject to [ESPN's Terms of Use and Privacy Policy](https://disneyprivacycenter.com/).
-*   **Discord:** If a moderator configures a Discord webhook, notifications are routed to Discord. Subject to the [Discord Privacy Policy](https://discord.com/privacy).
+*   **Discord:** If a moderator configures a Discord webhook, notifications are routed to their community server. Additionally, for central logging, debugging, and operational health monitoring of the bot fleet, the Bot transmits basic operational event logs (such as the subreddit name, game matchups, and generated thread URLs) to a centralized Discord server maintained by the developer. No personal identifying information (PII) of subreddit users is ever transmitted. All transmissions are subject to the [Discord Privacy Policy](https://discord.com/privacy).
 
 ---
 
